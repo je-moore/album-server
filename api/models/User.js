@@ -47,8 +47,7 @@ email status until they click the link in the confirmation email.`
       example: '2$28a8eabna301089103-13948134nad'
     },
 
-/*  moved to Profile
-
+  /*  moved to Profile
     fullName: {
       type: 'string',
       required: true,
@@ -56,8 +55,7 @@ email status until they click the link in the confirmation email.`
       maxLength: 120,
       example: 'Mary Sue van der McHenst'
     },
-
-*/
+  */
 
     isSuperAdmin: {
       type: 'boolean',
@@ -171,7 +169,6 @@ without necessarily having a billing card.`
     profile: {
       model: 'profile',
     },
-
 
 
   },

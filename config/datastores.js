@@ -48,8 +48,9 @@ module.exports.datastores = {
     *    (See https://sailsjs.com/config/datastores for help.)                 *
     *                                                                          *
     ***************************************************************************/
-    // adapter: 'sails-mysql',
-    // url: 'mysql://user:password@host:port/database',
+    adapter: 'sails-postgresql',
+    url: 'postgresql://postgres:secret@localhost:5432/postgres',
+    // docker run -e POSTGRES_PASSWORD=secret -p 5432:5432 -d postgres
 
   },
 
